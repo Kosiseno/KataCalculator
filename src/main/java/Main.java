@@ -11,7 +11,6 @@ public class Main {
         System.out.println("Ты можешь использовать арабские и римские цифры, одноко не смешивай их!");
         System.out.println("Перед и после знаком операции ставь пробел!");
 
-
-        InputStringHandler.takeProcessString();
+        InputStringHandler.takeProcessString(); // запускаем слушатель строки
     }
 }
